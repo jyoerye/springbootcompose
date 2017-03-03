@@ -6,7 +6,7 @@ version: "2"
 services:
    spring:
       image: toneeraj/gs-accessing-data-rest
-      container_name:docker_springboot_1
+      container_name: docker_springboot_1
       ports:
           - "8081:8082"
       networks:
