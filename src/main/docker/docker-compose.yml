@@ -8,7 +8,7 @@ services:
       image: toneeraj/gs-accessing-data-rest
       container_name:docker_springboot_1
       ports:
-          - "8081:8080"
+          - "8081:8082"
       networks:
         - isolated-network
 
