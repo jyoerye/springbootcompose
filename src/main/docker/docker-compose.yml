@@ -6,6 +6,7 @@ version: "2"
 services:
    spring:
       image: toneeraj/gs-accessing-data-rest
+      container_name:docker_springboot_1
       ports:
           - "8081:8080"
       networks:
@@ -13,6 +14,7 @@ services:
 
    h2db:
       image: oscarfonts/h2
+      container_name: docker_h2db_1
       ports:
          - "1521:1521"
          - "81:81"
